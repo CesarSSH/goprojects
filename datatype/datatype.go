@@ -11,7 +11,7 @@ func DataT() {
 	nickname := "Cezz"
 
 	//Int
-	var age int8 = 24
+	var age int8 = 24 //-127 till 127 
 	var year int16 = 2024
 	var height float32 = 1.80
 	var weight float32 = 70.0

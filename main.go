@@ -1,12 +1,15 @@
 package main
 
-import ("fmt" 
-"goprojects/hello"
-"goprojects/datatype"
+import (
+	"fmt"
+	"goprojects/datatype"
+	"goprojects/hello"
+	"goprojects/arrays"
 )
 
 func main() {
+	fmt.Println("Hello, World!")
 	hello.Hello()
 	datatype.DataT()
-	fmt.Println("It works")
+	arrays.Arrays()
 }
