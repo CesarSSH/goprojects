@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"goprojects/conditions"
+	"goprojects/loops"
 )
 
 func main() {
 	fmt.Println("Hello, World!")
-	conditions.Conditions()
+	loops.Loops()
 }
