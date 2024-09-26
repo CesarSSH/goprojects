@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"goprojects/maps"
+	"goprojects/conditions"
 )
 
 func main() {
 	fmt.Println("Hello, World!")
-	maps.Maps()
+	conditions.Conditions()
 }
