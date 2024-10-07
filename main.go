@@ -1,9 +1,9 @@
 package main
 
 import (
-	"goprojects/serve"
+	"goprojects/api"
 )
 
 func main() {
-	serve.StartServer()
+	api.StartService()
 }
